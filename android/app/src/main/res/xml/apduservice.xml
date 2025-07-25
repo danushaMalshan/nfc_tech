@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+                   android:description="@string/servicedesc" 
+                   android:requireDeviceScreenOn="false" 
+                   android:requireDeviceUnlock="false">
+    <aid-group android:description="@string/aiddescription" android:category="other">
+        <!-- Primary AID for door access systems -->
+        <aid-filter android:name="D2760000850101"/>
+        <!-- Additional common door system AIDs -->
+        <aid-filter android:name="A000DADADADADA"/>
+        <aid-filter android:name="F000000001"/>
+    </aid-group>
+</host-apdu-service> 

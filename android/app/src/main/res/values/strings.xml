@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFC Tech</string>
+    <string name="servicedesc">NFC Card Emulation Service</string>
+    <string name="aiddescription">NFC Card Emulation AID</string>
+</resources> 
